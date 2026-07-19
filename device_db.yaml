@@ -6035,7 +6035,7 @@ SWITCH_TUYA_ZTU_TOUCH_TS0002:
   power: mains
   neutral: without
   output: relay
-  device_type: end_device
+  device_type: router
   stock_model_name: TS0002
   stock_manufacturer_name: _TZ3000_jjdkhueq
   stock_converter_manufacturer: Tuya
@@ -6044,7 +6044,7 @@ SWITCH_TUYA_ZTU_TOUCH_TS0002:
   tuya_module: ZTU
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: jjdkhueq;TS0002-ZTU-CBU;LD7;SD4u;RC1;IB6;SC4u;RC0;LB7;M;
+  config_str: jjdkhueq;TS0002-ZTU-CBU;LD7;SD4u;RC2;IB6;SB4u;RD2;LB5;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
