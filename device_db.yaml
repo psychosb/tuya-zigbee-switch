@@ -6029,6 +6029,33 @@ SWITCH_TUYA_TS0001:
   info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/pull/404
   store: https://www.aliexpress.com/item/1005010686659544.html
+SWITCH_TUYA_ZTU_TOUCH_TS0002:
+  human_name: Tuya CBU/ZTU 2-gang touch switch (BR268-2L)
+  category: switch
+  power: mains
+  neutral: without
+  output: relay
+  device_type: end_device
+  stock_model_name: TS0002
+  stock_manufacturer_name: _TZ3000_jjdkhueq
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0002
+  override_z2m_device: null
+  tuya_module: ZTU
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: jjdkhueq;TS0002-ZTU-CBU;LD7;SD4u;RC1;IB6;SC4u;RC0;LB7;M;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 47120
+  build: yes
+  status: in_progress
+  info: Initial pinout guess based on ZTU dev board pattern + iteration
+  threads: null
+  store: null
 SWITCH_ZEMISMART_1_TS0012:
   human_name: Zemismart 2-gang switch 🅰
   category: switch
