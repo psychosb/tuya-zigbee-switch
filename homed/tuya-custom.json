@@ -8,9 +8,7 @@
       "options": {
         "endpointName": {
           "1": "switch_left",
-          "2": "switch_right",
-          "3": "relay_left",
-          "4": "relay_right"
+          "2": "switch_right"
         }
       }
     },
@@ -49,43 +47,6 @@
         }
       },
       "endpointId": 1
-    },
-    {
-      "modelNames": [
-        "TS0002-ZTU-CBU"
-      ],
-      "properties": [
-        "status",
-        "powerOnStatus"
-      ],
-      "actions": [
-        "status",
-        "powerOnStatus"
-      ],
-      "bindings": [
-        "status"
-      ],
-      "reportings": [
-        "status"
-      ],
-      "exposes": [
-        "switch",
-        "powerOnStatus"
-      ],
-      "options": {
-        "powerOnStatus": {
-          "enum": [
-            "off",
-            "on",
-            "toggle",
-            "previous"
-          ]
-        }
-      },
-      "endpointId": [
-        3,
-        4
-      ]
     },
     {
       "modelNames": [
@@ -194,10 +155,7 @@
         },
         "relayIndex": {
           "type": "select",
-          "enum": {
-            "1": "relay_1",
-            "2": "relay_2"
-          }
+          "enum": {}
         },
         "longPressDuration": {
           "type": "number",
